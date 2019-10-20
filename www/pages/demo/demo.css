@@ -1,0 +1,24 @@
+
+		.content {
+			text-align: left;
+		}
+		#demo-box .box div {
+			padding: 10px;
+			cursor: url('../../assets/img/santahand.png'), default;
+		}
+		#demo-select {
+			padding:10px 0;
+		}
+		#demo-input label,
+		#demo-radio label,
+		#demo-checkbox label {
+			display: block;
+			padding-bottom:5px;
+		}
+		.sub-title {
+			display: block;
+			text-align: center;
+			font-weight: bold;
+			font-size: 18px;
+			padding: 5px 0 5px 20px;
+		}
