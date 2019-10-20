@@ -4,6 +4,8 @@
   "description": "a little webpack demo for MPA(Multi-page- Application)",
   "main": "index.js",
   "scripts": {
+    "create": "node build/create.js",
+    "server": "node server/start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/MiaomiaoFanny/webpack-demo/issues"
   },
-  "homepage": "https://github.com/MiaomiaoFanny/webpack-demo#readme"
+  "homepage": "https://github.com/MiaomiaoFanny/webpack-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1"
+  }
 }
